@@ -1,0 +1,19 @@
+.myIcon{
+    border-radius: 100%;
+    box-shadow: 1px 1px 13px black;
+    padding-top: 100%;
+    width: 7.5rem;
+    &.sun{
+        background-color: #FFD800;
+    }
+    &.moon{
+        background-color: #A9ABB9;
+    }
+}
+
+.card{
+    width: auto;
+    border: none;
+    background-color: #ffffff00;
+    font-size: 1.25rem;
+}

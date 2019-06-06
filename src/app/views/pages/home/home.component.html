@@ -1,3 +1,19 @@
-<p>
-  home works!
-</p>
+<div class="row">
+  <div class="col-12 text-center mb-1">
+    <h1 class="header">Dan's Daily Forecast</h1>
+  </div>
+</div>
+
+<div class="row text-center">
+  <div class="col-12">
+    <h2>Modesto</h2>
+  </div>
+</div>
+<div class="d-flex flex-row justify-content-between ">
+  <app-arrow class="my-auto" direction = prev></app-arrow>
+  <app-city date='1' icon='moon' degrees='90'></app-city>
+  <app-arrow class="my-auto" direction = next></app-arrow>
+</div>
+
+
+<app-forecast></app-forecast>

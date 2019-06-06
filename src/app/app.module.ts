@@ -9,6 +9,9 @@ import { CityComponent } from './shared/components/city/city.component';
 import { HomeComponent } from './views/pages/home/home.component';
 import { SearchComponent } from './views/pages/search/search.component';
 import { ToastComponent } from './views/toast/toast.component';
+import {ToastModule} from 'primeng/toast';
+import { ForecastComponent } from './views/forecast/forecast.component';
+import { ArrowComponent } from './shared/components/arrow/arrow.component';
 
 @NgModule({
   declarations: [
@@ -17,12 +20,15 @@ import { ToastComponent } from './views/toast/toast.component';
     CityComponent,
     HomeComponent,
     SearchComponent,
-    ToastComponent
+    ToastComponent,
+    ForecastComponent,
+    ArrowComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ToastModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,20 @@
+div{
+	border-color: transparent rgb(100, 100, 100);
+	border-style: solid;
+	height: 0px;
+    width: 0px;
+    transition: border-color 0.3s ease-out;
+    &.next{
+        border-width: 30px 0px 30px 30px;
+    }
+    &.prev{
+        border-width: 30px 30px 30px 0px;
+    }
+    &:hover{
+        border-color: transparent rgb(75, 75, 75)
+    }
+    &:active{
+        border-color: transparent #333;
+    }
+}
+
