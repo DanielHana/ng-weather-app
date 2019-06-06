@@ -1,3 +1,22 @@
+$green: rgb(128, 228, 128);
+
 .header{
+    color: #333;
     border-bottom: 1px solid #333;
+}
+
+.plus {
+    width:50px;
+    height:50px;
+    background:
+      linear-gradient($green,$green),
+      linear-gradient($green,$green),
+      #333;
+    background-position:center;
+    background-size: 50% 2px,2px 50%;
+    background-repeat:no-repeat;
+    transition: 0.2s all;
+    &:active{
+        transform: rotate(90deg);
+    }
 }

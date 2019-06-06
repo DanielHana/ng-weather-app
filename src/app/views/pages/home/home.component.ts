@@ -8,6 +8,7 @@ import { ToastService } from 'src/app/shared/services/toast.service';
 })
 export class HomeComponent implements OnInit {
 
+  display =false;
   constructor() { }
 
   ngOnInit() {

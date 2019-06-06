@@ -1,3 +1,8 @@
+
+<p-sidebar [(visible)]="display"  position="right">
+    Content
+</p-sidebar>
+
 <div class="row">
   <div class="col-12 text-center mb-1">
     <h1 class="header">Dan's Daily Forecast</h1>
@@ -7,6 +12,7 @@
 <div class="row text-center">
   <div class="col-12">
     <h2>Modesto</h2>
+    <div (click)="display = true" class="ml-auto plus"></div>
   </div>
 </div>
 <div class="d-flex flex-row justify-content-between ">
@@ -17,3 +23,4 @@
 
 
 <app-forecast></app-forecast>
+

@@ -13,6 +13,7 @@ import {ToastModule} from 'primeng/toast';
 import { ForecastComponent } from './views/forecast/forecast.component';
 import { ArrowComponent } from './shared/components/arrow/arrow.component';
 
+import {SidebarModule} from 'primeng/sidebar';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,8 @@ import { ArrowComponent } from './shared/components/arrow/arrow.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    ToastModule
+    ToastModule,
+    SidebarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
