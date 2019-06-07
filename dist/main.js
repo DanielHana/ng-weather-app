@@ -67,7 +67,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<app-toast></app-toast>\n<div class=\"container\">\n  <router-outlet></router-outlet>\n</div>"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\r\n<app-toast></app-toast>\r\n<div class=\"container\">\r\n  <router-outlet></router-outlet>\r\n</div>"
 
 /***/ }),
 
@@ -196,7 +196,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div [ngClass]='direction'></div>\n\n"
+module.exports = "<div [ngClass]='direction'></div>\r\n\r\n"
 
 /***/ }),
 
@@ -207,7 +207,7 @@ module.exports = "<div [ngClass]='direction'></div>\n\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "div {\n  border-color: transparent #646464;\n  border-style: solid;\n  height: 0px;\n  width: 0px;\n  transition: border-color 0.3s ease-out; }\n  div.next {\n    border-width: 30px 0px 30px 30px; }\n  div.prev {\n    border-width: 30px 30px 30px 0px; }\n  div:hover {\n    border-color: transparent #4b4b4b; }\n  div:active {\n    border-color: transparent #333; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2RlL0Rlc2t0b3AvYW5ndWxhci9uZy13ZWF0aGVyLWFwcC9zcmMvYXBwL3NoYXJlZC9jb21wb25lbnRzL2Fycm93L2Fycm93LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0MsaUNBQTRDO0VBQzVDLG1CQUFtQjtFQUNuQixXQUFXO0VBQ1IsVUFBVTtFQUNWLHNDQUFzQyxFQUFBO0VBTDFDO0lBT1EsZ0NBQWdDLEVBQUE7RUFQeEM7SUFVUSxnQ0FBZ0MsRUFBQTtFQVZ4QztJQWFRLGlDQUF5QyxFQUFBO0VBYmpEO0lBZ0JRLDhCQUE4QixFQUFBIiwiZmlsZSI6InNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvYXJyb3cvYXJyb3cuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXZ7XG5cdGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQgcmdiKDEwMCwgMTAwLCAxMDApO1xuXHRib3JkZXItc3R5bGU6IHNvbGlkO1xuXHRoZWlnaHQ6IDBweDtcbiAgICB3aWR0aDogMHB4O1xuICAgIHRyYW5zaXRpb246IGJvcmRlci1jb2xvciAwLjNzIGVhc2Utb3V0O1xuICAgICYubmV4dHtcbiAgICAgICAgYm9yZGVyLXdpZHRoOiAzMHB4IDBweCAzMHB4IDMwcHg7XG4gICAgfVxuICAgICYucHJldntcbiAgICAgICAgYm9yZGVyLXdpZHRoOiAzMHB4IDMwcHggMzBweCAwcHg7XG4gICAgfVxuICAgICY6aG92ZXJ7XG4gICAgICAgIGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQgcmdiKDc1LCA3NSwgNzUpXG4gICAgfVxuICAgICY6YWN0aXZle1xuICAgICAgICBib3JkZXItY29sb3I6IHRyYW5zcGFyZW50ICMzMzM7XG4gICAgfVxufVxuXG4iXX0= */"
+module.exports = "div {\n  border-color: transparent #646464;\n  border-style: solid;\n  height: 0px;\n  width: 0px;\n  transition: border-color 0.3s ease-out; }\n  div.next {\n    border-width: 30px 0px 30px 30px; }\n  div.prev {\n    border-width: 30px 30px 30px 0px; }\n  div:hover {\n    border-color: transparent #4b4b4b; }\n  div:active {\n    border-color: transparent #333; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvYXJyb3cvRDpcXEFuZ3VsYXJcXG5nLXdlYXRoZXItYXBwL3NyY1xcYXBwXFxzaGFyZWRcXGNvbXBvbmVudHNcXGFycm93XFxhcnJvdy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLGlDQUE0QztFQUM1QyxtQkFBbUI7RUFDbkIsV0FBVztFQUNSLFVBQVU7RUFDVixzQ0FBc0MsRUFBQTtFQUwxQztJQU9RLGdDQUFnQyxFQUFBO0VBUHhDO0lBVVEsZ0NBQWdDLEVBQUE7RUFWeEM7SUFhUSxpQ0FBeUMsRUFBQTtFQWJqRDtJQWdCUSw4QkFBOEIsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9jb21wb25lbnRzL2Fycm93L2Fycm93LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZGl2e1xyXG5cdGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQgcmdiKDEwMCwgMTAwLCAxMDApO1xyXG5cdGJvcmRlci1zdHlsZTogc29saWQ7XHJcblx0aGVpZ2h0OiAwcHg7XHJcbiAgICB3aWR0aDogMHB4O1xyXG4gICAgdHJhbnNpdGlvbjogYm9yZGVyLWNvbG9yIDAuM3MgZWFzZS1vdXQ7XHJcbiAgICAmLm5leHR7XHJcbiAgICAgICAgYm9yZGVyLXdpZHRoOiAzMHB4IDBweCAzMHB4IDMwcHg7XHJcbiAgICB9XHJcbiAgICAmLnByZXZ7XHJcbiAgICAgICAgYm9yZGVyLXdpZHRoOiAzMHB4IDMwcHggMzBweCAwcHg7XHJcbiAgICB9XHJcbiAgICAmOmhvdmVye1xyXG4gICAgICAgIGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQgcmdiKDc1LCA3NSwgNzUpXHJcbiAgICB9XHJcbiAgICAmOmFjdGl2ZXtcclxuICAgICAgICBib3JkZXItY29sb3I6IHRyYW5zcGFyZW50ICMzMzM7XHJcbiAgICB9XHJcbn1cclxuXHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -256,7 +256,7 @@ var ArrowComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  btn works!\n</p>\n"
+module.exports = "<p>\r\n  btn works!\r\n</p>\r\n"
 
 /***/ }),
 
@@ -312,7 +312,7 @@ var BtnComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card text-center\">\n    <div class=\"my-1 myIcon\" [ngClass]=\"icon\"></div>\n    <div class=\"card-body\">\n      <h5 class=\"card-title\">{{date}}</h5>\n      <p class=\"card-text\">{{degrees}}</p>\n    </div>\n</div>"
+module.exports = "<div class=\"card text-center\">\r\n    <div class=\"my-1 myIcon\" [ngClass]=\"icon\"></div>\r\n    <div class=\"card-body\">\r\n      <h5 class=\"card-title\">{{date}}</h5>\r\n      <p class=\"card-text\">{{degrees}}</p>\r\n    </div>\r\n</div>"
 
 /***/ }),
 
@@ -323,7 +323,7 @@ module.exports = "<div class=\"card text-center\">\n    <div class=\"my-1 myIcon
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".myIcon {\n  border-radius: 100%;\n  box-shadow: 1px 1px 13px black;\n  padding-top: 100%;\n  width: 7.5rem; }\n  .myIcon.sun {\n    background-color: #FFD800; }\n  .myIcon.moon {\n    background-color: #A9ABB9; }\n  .card {\n  width: auto;\n  border: none;\n  background-color: #ffffff00;\n  font-size: 1.25rem; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2RlL0Rlc2t0b3AvYW5ndWxhci9uZy13ZWF0aGVyLWFwcC9zcmMvYXBwL3NoYXJlZC9jb21wb25lbnRzL2NpdHkvY2l0eS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG1CQUFtQjtFQUNuQiw4QkFBOEI7RUFDOUIsaUJBQWlCO0VBQ2pCLGFBQWEsRUFBQTtFQUpqQjtJQU1RLHlCQUF5QixFQUFBO0VBTmpDO0lBU1EseUJBQXlCLEVBQUE7RUFJakM7RUFDSSxXQUFXO0VBQ1gsWUFBWTtFQUNaLDJCQUEyQjtFQUMzQixrQkFBa0IsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9jb21wb25lbnRzL2NpdHkvY2l0eS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5teUljb257XG4gICAgYm9yZGVyLXJhZGl1czogMTAwJTtcbiAgICBib3gtc2hhZG93OiAxcHggMXB4IDEzcHggYmxhY2s7XG4gICAgcGFkZGluZy10b3A6IDEwMCU7XG4gICAgd2lkdGg6IDcuNXJlbTtcbiAgICAmLnN1bntcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0ZGRDgwMDtcbiAgICB9XG4gICAgJi5tb29ue1xuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjQTlBQkI5O1xuICAgIH1cbn1cblxuLmNhcmR7XG4gICAgd2lkdGg6IGF1dG87XG4gICAgYm9yZGVyOiBub25lO1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmYwMDtcbiAgICBmb250LXNpemU6IDEuMjVyZW07XG59Il19 */"
+module.exports = ".myIcon {\n  border-radius: 100%;\n  box-shadow: 1px 1px 13px black;\n  padding-top: 100%;\n  width: 7.5rem; }\n  .myIcon.sun {\n    background-color: #FFD800; }\n  .myIcon.moon {\n    background-color: #A9ABB9; }\n  .card {\n  width: auto;\n  border: none;\n  background-color: #ffffff00;\n  font-size: 1.25rem; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvY2l0eS9EOlxcQW5ndWxhclxcbmctd2VhdGhlci1hcHAvc3JjXFxhcHBcXHNoYXJlZFxcY29tcG9uZW50c1xcY2l0eVxcY2l0eS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG1CQUFtQjtFQUNuQiw4QkFBOEI7RUFDOUIsaUJBQWlCO0VBQ2pCLGFBQWEsRUFBQTtFQUpqQjtJQU1RLHlCQUF5QixFQUFBO0VBTmpDO0lBU1EseUJBQXlCLEVBQUE7RUFJakM7RUFDSSxXQUFXO0VBQ1gsWUFBWTtFQUNaLDJCQUEyQjtFQUMzQixrQkFBa0IsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9jb21wb25lbnRzL2NpdHkvY2l0eS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5teUljb257XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMDAlO1xyXG4gICAgYm94LXNoYWRvdzogMXB4IDFweCAxM3B4IGJsYWNrO1xyXG4gICAgcGFkZGluZy10b3A6IDEwMCU7XHJcbiAgICB3aWR0aDogNy41cmVtO1xyXG4gICAgJi5zdW57XHJcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0ZGRDgwMDtcclxuICAgIH1cclxuICAgICYubW9vbntcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjQTlBQkI5O1xyXG4gICAgfVxyXG59XHJcblxyXG4uY2FyZHtcclxuICAgIHdpZHRoOiBhdXRvO1xyXG4gICAgYm9yZGVyOiBub25lO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjAwO1xyXG4gICAgZm9udC1zaXplOiAxLjI1cmVtO1xyXG59Il19 */"
 
 /***/ }),
 
@@ -425,7 +425,7 @@ var ToastService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"d-flex fixed-bottom flex-row justify-content-around py-1\">\n  <app-city *ngFor = 'let day of week' date='1' icon = {{day}} degrees = '90'></app-city>\n</div>"
+module.exports = "<div class=\"d-flex fixed-bottom flex-row justify-content-around py-1\">\r\n  <app-city *ngFor = 'let day of week' date='1' icon = {{day}} degrees = '90'></app-city>\r\n</div>"
 
 /***/ }),
 
@@ -436,7 +436,7 @@ module.exports = "<div class=\"d-flex fixed-bottom flex-row justify-content-arou
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "div {\n  background-color: #bfbfbf; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2RlL0Rlc2t0b3AvYW5ndWxhci9uZy13ZWF0aGVyLWFwcC9zcmMvYXBwL3ZpZXdzL2ZvcmVjYXN0L2ZvcmVjYXN0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUJBQW9DLEVBQUEiLCJmaWxlIjoic3JjL2FwcC92aWV3cy9mb3JlY2FzdC9mb3JlY2FzdC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdntcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMTkxLCAxOTEsIDE5MSk7XG59Il19 */"
+module.exports = "div {\n  background-color: #bfbfbf; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdmlld3MvZm9yZWNhc3QvRDpcXEFuZ3VsYXJcXG5nLXdlYXRoZXItYXBwL3NyY1xcYXBwXFx2aWV3c1xcZm9yZWNhc3RcXGZvcmVjYXN0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUJBQW9DLEVBQUEiLCJmaWxlIjoic3JjL2FwcC92aWV3cy9mb3JlY2FzdC9mb3JlY2FzdC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdntcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigxOTEsIDE5MSwgMTkxKTtcclxufSJdfQ== */"
 
 /***/ }),
 
@@ -488,7 +488,7 @@ var ForecastComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<p-sidebar [(visible)]=\"display\"  position=\"right\">\n    Content\n</p-sidebar>\n\n<div class=\"row\">\n  <div class=\"col-12 text-center mb-1\">\n    <h1 class=\"header\">Dan's Daily Forecast</h1>\n  </div>\n</div>\n\n<div class=\"row text-center\">\n  <div class=\"col-12\">\n    <h2>Modesto</h2>\n    <div (click)=\"display = true\" class=\"ml-auto plus\"></div>\n  </div>\n</div>\n<div class=\"d-flex flex-row justify-content-between \">\n  <app-arrow class=\"my-auto\" direction = prev></app-arrow>\n  <app-city date='1' icon='moon' degrees='90'></app-city>\n  <app-arrow class=\"my-auto\" direction = next></app-arrow>\n</div>\n\n\n<app-forecast></app-forecast>\n\n"
+module.exports = "\r\n<p-sidebar [(visible)]=\"display\"  position=\"right\" baseZIndex=100 autoZIndex = \"false\">\r\n    \r\n</p-sidebar>\r\n\r\n<div class=\"row\">\r\n  <div class=\"col-12 text-center mb-1\">\r\n    <h1 class=\"header\">Dan's Daily Forecast</h1>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"row text-center\">\r\n  <div class=\"col-12\">\r\n    <h2>Modesto</h2>\r\n    <div (click)=\"display = true\" class=\"ml-auto plus\"></div>\r\n  </div>\r\n</div>\r\n<div class=\"d-flex flex-row justify-content-between \">\r\n  <app-arrow class=\"my-auto\" direction = prev></app-arrow>\r\n  <app-city date='1' icon='moon' degrees='90'></app-city>\r\n  <app-arrow class=\"my-auto\" direction = next></app-arrow>\r\n</div>\r\n\r\n\r\n<app-forecast></app-forecast>\r\n\r\n"
 
 /***/ }),
 
@@ -499,7 +499,7 @@ module.exports = "\n<p-sidebar [(visible)]=\"display\"  position=\"right\">\n   
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".header {\n  color: #333;\n  border-bottom: 1px solid #333; }\n\n.plus {\n  width: 50px;\n  height: 50px;\n  background: linear-gradient(#80e480, #80e480), linear-gradient(#80e480, #80e480), #333;\n  background-position: center;\n  background-size: 50% 2px,2px 50%;\n  background-repeat: no-repeat;\n  transition: 0.2s all; }\n\n.plus:active {\n    -webkit-transform: rotate(90deg);\n            transform: rotate(90deg); }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2RlL0Rlc2t0b3AvYW5ndWxhci9uZy13ZWF0aGVyLWFwcC9zcmMvYXBwL3ZpZXdzL3BhZ2VzL2hvbWUvaG9tZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLFdBQVc7RUFDWCw2QkFBNkIsRUFBQTs7QUFHakM7RUFDSSxXQUFVO0VBQ1YsWUFBVztFQUNYLHNGQUdNO0VBQ04sMkJBQTBCO0VBQzFCLGdDQUFnQztFQUNoQyw0QkFBMkI7RUFDM0Isb0JBQW9CLEVBQUE7O0FBVnhCO0lBWVEsZ0NBQXdCO1lBQXhCLHdCQUF3QixFQUFBIiwiZmlsZSI6InNyYy9hcHAvdmlld3MvcGFnZXMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJGdyZWVuOiByZ2IoMTI4LCAyMjgsIDEyOCk7XG5cbi5oZWFkZXJ7XG4gICAgY29sb3I6ICMzMzM7XG4gICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICMzMzM7XG59XG5cbi5wbHVzIHtcbiAgICB3aWR0aDo1MHB4O1xuICAgIGhlaWdodDo1MHB4O1xuICAgIGJhY2tncm91bmQ6XG4gICAgICBsaW5lYXItZ3JhZGllbnQoJGdyZWVuLCRncmVlbiksXG4gICAgICBsaW5lYXItZ3JhZGllbnQoJGdyZWVuLCRncmVlbiksXG4gICAgICAjMzMzO1xuICAgIGJhY2tncm91bmQtcG9zaXRpb246Y2VudGVyO1xuICAgIGJhY2tncm91bmQtc2l6ZTogNTAlIDJweCwycHggNTAlO1xuICAgIGJhY2tncm91bmQtcmVwZWF0Om5vLXJlcGVhdDtcbiAgICB0cmFuc2l0aW9uOiAwLjJzIGFsbDtcbiAgICAmOmFjdGl2ZXtcbiAgICAgICAgdHJhbnNmb3JtOiByb3RhdGUoOTBkZWcpO1xuICAgIH1cbn1cbiJdfQ== */"
+module.exports = ".header {\n  color: #333;\n  border-bottom: 1px solid #333; }\n\n.plus {\n  width: 50px;\n  height: 50px;\n  background: linear-gradient(#80e480, #80e480), linear-gradient(#80e480, #80e480), #333;\n  background-position: center;\n  background-size: 50% 2px,2px 50%;\n  background-repeat: no-repeat;\n  transition: 0.2s all; }\n\n.plus:hover {\n    -webkit-transform: rotate(90deg);\n            transform: rotate(90deg); }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdmlld3MvcGFnZXMvaG9tZS9EOlxcQW5ndWxhclxcbmctd2VhdGhlci1hcHAvc3JjXFxhcHBcXHZpZXdzXFxwYWdlc1xcaG9tZVxcaG9tZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLFdBQVc7RUFDWCw2QkFBNkIsRUFBQTs7QUFHakM7RUFDSSxXQUFVO0VBQ1YsWUFBVztFQUNYLHNGQUdNO0VBQ04sMkJBQTBCO0VBQzFCLGdDQUFnQztFQUNoQyw0QkFBMkI7RUFDM0Isb0JBQW9CLEVBQUE7O0FBVnhCO0lBWVEsZ0NBQXdCO1lBQXhCLHdCQUF3QixFQUFBIiwiZmlsZSI6InNyYy9hcHAvdmlld3MvcGFnZXMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJGdyZWVuOiByZ2IoMTI4LCAyMjgsIDEyOCk7XHJcblxyXG4uaGVhZGVye1xyXG4gICAgY29sb3I6ICMzMzM7XHJcbiAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgIzMzMztcclxufVxyXG5cclxuLnBsdXMge1xyXG4gICAgd2lkdGg6NTBweDtcclxuICAgIGhlaWdodDo1MHB4O1xyXG4gICAgYmFja2dyb3VuZDpcclxuICAgICAgbGluZWFyLWdyYWRpZW50KCRncmVlbiwkZ3JlZW4pLFxyXG4gICAgICBsaW5lYXItZ3JhZGllbnQoJGdyZWVuLCRncmVlbiksXHJcbiAgICAgICMzMzM7XHJcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOmNlbnRlcjtcclxuICAgIGJhY2tncm91bmQtc2l6ZTogNTAlIDJweCwycHggNTAlO1xyXG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6bm8tcmVwZWF0O1xyXG4gICAgdHJhbnNpdGlvbjogMC4ycyBhbGw7XHJcbiAgICAmOmhvdmVye1xyXG4gICAgICAgIHRyYW5zZm9ybTogcm90YXRlKDkwZGVnKTtcclxuICAgIH1cclxufVxyXG4iXX0= */"
 
 /***/ }),
 
@@ -545,7 +545,7 @@ var HomeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  search works!\n</p>\n"
+module.exports = "<p>\r\n  search works!\r\n</p>\r\n"
 
 /***/ }),
 
@@ -738,7 +738,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/code/Desktop/angular/ng-weather-app/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! D:\Angular\ng-weather-app\src\main.ts */"./src/main.ts");
 
 
 /***/ })
