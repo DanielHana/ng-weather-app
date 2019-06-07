@@ -14,6 +14,7 @@ import { ForecastComponent } from './views/forecast/forecast.component';
 import { ArrowComponent } from './shared/components/arrow/arrow.component';
 
 import {SidebarModule} from 'primeng/sidebar';
+import { PlusComponent } from './views/plus/plus.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,8 @@ import {SidebarModule} from 'primeng/sidebar';
     SearchComponent,
     ToastComponent,
     ForecastComponent,
-    ArrowComponent
+    ArrowComponent,
+    PlusComponent
   ],
   imports: [
     BrowserModule,
