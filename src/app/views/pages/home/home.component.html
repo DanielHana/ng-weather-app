@@ -1,6 +1,5 @@
-<p-sidebar class="sidebar" [(visible)]="display" position="right" baseZIndex=100 autoZIndex="false">
-  <app-search></app-search>
-  <app-btn></app-btn>
+<p-sidebar class="sidebar text-center" [(visible)]="display" position="right" baseZIndex=100 autoZIndex="false">
+  <app-search city = "'city'"></app-search>
 </p-sidebar>
 
 <div class="row">
@@ -11,13 +10,13 @@
 
 <div class="row text-center">
   <div class="col-4">
-    <app-plus klass='minus'></app-plus>
+    <app-plus klass='minus mr-auto'></app-plus>
   </div>
   <div class="col-4">
     <h2>Modesto</h2>
   </div>
   <div class="col-4">
-    <app-plus (click)="display = true" klass='plus'></app-plus>
+    <app-plus (click)="display = true" klass='plus ml-auto'></app-plus>
   </div>
 </div>
 <div class="d-flex flex-row justify-content-between ">

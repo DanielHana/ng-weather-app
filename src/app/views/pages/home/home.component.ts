@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/shared/services/data.service';
 
 @Component({
   selector: 'app-home',
@@ -7,11 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  display =false;
-  constructor() { }
+  city = '';
+  display = false;
+  constructor( private dService: DataService) { }
 
   ngOnInit() {
-
   }
+
 
 }

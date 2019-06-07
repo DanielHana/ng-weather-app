@@ -1,6 +1,10 @@
+$grey: #333;
+$under: 1px solid $grey;
+
+
 .header{
-    color: #333;
-    border-bottom: 1px solid #333;
+    color: $grey;
+    border-bottom: $under;
 }
 
 :host {
@@ -9,3 +13,5 @@
         border:none;
     }
 }
+
+

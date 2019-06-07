@@ -139,9 +139,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var primeng_toast__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(primeng_toast__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var _views_forecast_forecast_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./views/forecast/forecast.component */ "./src/app/views/forecast/forecast.component.ts");
 /* harmony import */ var _shared_components_arrow_arrow_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./shared/components/arrow/arrow.component */ "./src/app/shared/components/arrow/arrow.component.ts");
-/* harmony import */ var primeng_sidebar__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! primeng/sidebar */ "./node_modules/primeng/sidebar.js");
-/* harmony import */ var primeng_sidebar__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(primeng_sidebar__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _views_plus_plus_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./views/plus/plus.component */ "./src/app/views/plus/plus.component.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var primeng_sidebar__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! primeng/sidebar */ "./node_modules/primeng/sidebar.js");
+/* harmony import */ var primeng_sidebar__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(primeng_sidebar__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _views_plus_plus_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./views/plus/plus.component */ "./src/app/views/plus/plus.component.ts");
+
 
 
 
@@ -172,14 +174,15 @@ var AppModule = /** @class */ (function () {
                 _views_toast_toast_component__WEBPACK_IMPORTED_MODULE_10__["ToastComponent"],
                 _views_forecast_forecast_component__WEBPACK_IMPORTED_MODULE_12__["ForecastComponent"],
                 _shared_components_arrow_arrow_component__WEBPACK_IMPORTED_MODULE_13__["ArrowComponent"],
-                _views_plus_plus_component__WEBPACK_IMPORTED_MODULE_15__["PlusComponent"]
+                _views_plus_plus_component__WEBPACK_IMPORTED_MODULE_16__["PlusComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__["BrowserAnimationsModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
                 primeng_toast__WEBPACK_IMPORTED_MODULE_11__["ToastModule"],
-                primeng_sidebar__WEBPACK_IMPORTED_MODULE_14__["SidebarModule"]
+                primeng_sidebar__WEBPACK_IMPORTED_MODULE_15__["SidebarModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_14__["HttpClientModule"]
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
@@ -259,7 +262,7 @@ var ArrowComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  btn works!\n</p>\n"
+module.exports = "<div class=\"btn btn-secondary\">Search</div>"
 
 /***/ }),
 
@@ -370,6 +373,60 @@ var CityComponent = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
     ], CityComponent);
     return CityComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/shared/services/api.service.ts":
+/*!************************************************!*\
+  !*** ./src/app/shared/services/api.service.ts ***!
+  \************************************************/
+/*! exports provided: ApiService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ApiService", function() { return ApiService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _toast_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./toast.service */ "./src/app/shared/services/toast.service.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+
+
+
+
+var ApiService = /** @class */ (function () {
+    function ApiService(http, tService) {
+        this.http = http;
+        this.tService = tService;
+        this.apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=';
+        this.apiKey = '&units=imperial&appid=7368cd9c634c86465f0c6542a47a6054';
+    }
+    ApiService.prototype.makeCall = function (city) {
+        city = 'modesto';
+        this.sub = this.getURL(this.apiURL + city + this.apiKey).subscribe(function (x) {
+            console.log(x);
+        });
+    };
+    ApiService.prototype.getForecast = function () {
+    };
+    ApiService.prototype.getURL = function (url) {
+        return this.http.get(url);
+    };
+    ApiService.prototype.ngOnDestroy = function () {
+        if (this.sub) {
+            this.sub.unsubscribe();
+        }
+    };
+    ApiService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+            providedIn: 'root'
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"], _toast_service__WEBPACK_IMPORTED_MODULE_2__["ToastService"]])
+    ], ApiService);
+    return ApiService;
 }());
 
 
@@ -491,7 +548,7 @@ var ForecastComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p-sidebar class=\"sidebar\" [(visible)]=\"display\" position=\"right\" baseZIndex=100 autoZIndex=\"false\">\n\n</p-sidebar>\n\n<div class=\"row\">\n  <div class=\"col-12 text-center mb-1\">\n    <h1 class=\"header\">Dan's Daily Forecast</h1>\n  </div>\n</div>\n\n<div class=\"row text-center\">\n  <div class=\"col-4\">\n    <app-plus klass='minus'></app-plus>\n  </div>\n  <div class=\"col-4\">\n    <h2>Modesto</h2>\n  </div>\n  <div class=\"col-4\">\n    <app-plus (click)=\"display = true\" klass='plus'></app-plus>\n  </div>\n</div>\n<div class=\"d-flex flex-row justify-content-between \">\n  <app-arrow class=\"my-auto\" direction=prev></app-arrow>\n  <app-city date='1' icon='moon' degrees='90'></app-city>\n  <app-arrow class=\"my-auto\" direction=next></app-arrow>\n</div>\n\n\n<app-forecast></app-forecast>"
+module.exports = "<p-sidebar class=\"sidebar text-center\" [(visible)]=\"display\" position=\"right\" baseZIndex=100 autoZIndex=\"false\">\n  <h2 class=cityHead>Add City</h2>\n  <app-search></app-search>\n  <app-btn></app-btn>\n</p-sidebar>\n\n<div class=\"row\">\n  <div class=\"col-12 text-center mb-1\">\n    <h1 class=\"header\">Dan's Daily Forecast</h1>\n  </div>\n</div>\n\n<div class=\"row text-center\">\n  <div class=\"col-4\">\n    <app-plus klass='minus mr-auto'></app-plus>\n  </div>\n  <div class=\"col-4\">\n    <h2>Modesto</h2>\n  </div>\n  <div class=\"col-4\">\n    <app-plus (click)=\"display = true\" klass='plus ml-auto'></app-plus>\n  </div>\n</div>\n<div class=\"d-flex flex-row justify-content-between \">\n  <app-arrow class=\"my-auto\" direction=prev></app-arrow>\n  <app-city date='1' icon='moon' degrees='90'></app-city>\n  <app-arrow class=\"my-auto\" direction=next></app-arrow>\n</div>\n\n\n<app-forecast></app-forecast>"
 
 /***/ }),
 
@@ -502,7 +559,7 @@ module.exports = "<p-sidebar class=\"sidebar\" [(visible)]=\"display\" position=
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".header {\n  color: #333;\n  border-bottom: 1px solid #333; }\n\n:host ::ng-deep .ui-sidebar {\n  background-color: #4b4b4b;\n  border: none; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2RlL0Rlc2t0b3AvYW5ndWxhci9uZy13ZWF0aGVyLWFwcC9zcmMvYXBwL3ZpZXdzL3BhZ2VzL2hvbWUvaG9tZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFdBQVc7RUFDWCw2QkFBNkIsRUFBQTs7QUFHakM7RUFFUSx5QkFBaUM7RUFDakMsWUFBVyxFQUFBIiwiZmlsZSI6InNyYy9hcHAvdmlld3MvcGFnZXMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmhlYWRlcntcbiAgICBjb2xvcjogIzMzMztcbiAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgIzMzMztcbn1cblxuOmhvc3Qge1xuICAgIDo6bmctZGVlcCAudWktc2lkZWJhciB7XG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYig3NSwgNzUsIDc1KTtcbiAgICAgICAgYm9yZGVyOm5vbmU7XG4gICAgfVxufSJdfQ== */"
+module.exports = ".header {\n  color: #333;\n  border-bottom: 1px solid #333; }\n\n:host ::ng-deep .ui-sidebar {\n  background-color: #4b4b4b;\n  border: none; }\n\n.cityHead {\n  color: #eeeeee;\n  border-bottom: 1px solid #eeeeee; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2RlL0Rlc2t0b3AvYW5ndWxhci9uZy13ZWF0aGVyLWFwcC9zcmMvYXBwL3ZpZXdzL3BhZ2VzL2hvbWUvaG9tZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJQTtFQUNJLFdBTE87RUFNUCw2QkFOTyxFQUFBOztBQVNYO0VBRVEseUJBQWlDO0VBQ2pDLFlBQVcsRUFBQTs7QUFLbkI7RUFDSSxjQUFjO0VBQ2QsZ0NBQWdDLEVBQUEiLCJmaWxlIjoic3JjL2FwcC92aWV3cy9wYWdlcy9ob21lL2hvbWUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIkZ3JleTogIzMzMztcbiR1bmRlcjogMXB4IHNvbGlkICRncmV5O1xuXG5cbi5oZWFkZXJ7XG4gICAgY29sb3I6ICRncmV5O1xuICAgIGJvcmRlci1ib3R0b206ICR1bmRlcjtcbn1cblxuOmhvc3Qge1xuICAgIDo6bmctZGVlcCAudWktc2lkZWJhciB7XG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYig3NSwgNzUsIDc1KTtcbiAgICAgICAgYm9yZGVyOm5vbmU7XG4gICAgfVxufVxuXG5cbi5jaXR5SGVhZHtcbiAgICBjb2xvcjogI2VlZWVlZTtcbiAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2VlZWVlZTtcbn1cbiJdfQ== */"
 
 /***/ }),
 
@@ -518,13 +575,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var src_app_shared_services_api_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/shared/services/api.service */ "./src/app/shared/services/api.service.ts");
+
 
 
 var HomeComponent = /** @class */ (function () {
-    function HomeComponent() {
+    function HomeComponent(aService) {
+        this.aService = aService;
         this.display = false;
     }
     HomeComponent.prototype.ngOnInit = function () {
+        this.aService.makeCall('modesto');
     };
     HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -532,7 +593,7 @@ var HomeComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./home.component.html */ "./src/app/views/pages/home/home.component.html"),
             styles: [__webpack_require__(/*! ./home.component.scss */ "./src/app/views/pages/home/home.component.scss")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_shared_services_api_service__WEBPACK_IMPORTED_MODULE_2__["ApiService"]])
     ], HomeComponent);
     return HomeComponent;
 }());
@@ -548,7 +609,7 @@ var HomeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  search works!\n</p>\n"
+module.exports = "<form>\n  <div class=\"form-group\">\n    <input type=\"text\" class=\"form-control\" placeholder=\"Enter City/Zip\">\n  </div>\n</form>"
 
 /***/ }),
 
@@ -604,7 +665,7 @@ var SearchComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"mx-auto plus\" [ngClass]='klass'></div>"
+module.exports = "<div [ngClass]='klass'></div>"
 
 /***/ }),
 

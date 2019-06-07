@@ -12,9 +12,12 @@ import { ToastComponent } from './views/toast/toast.component';
 import {ToastModule} from 'primeng/toast';
 import { ForecastComponent } from './views/forecast/forecast.component';
 import { ArrowComponent } from './shared/components/arrow/arrow.component';
+import { HttpClientModule } from '@angular/common/http';
 
 import {SidebarModule} from 'primeng/sidebar';
 import { PlusComponent } from './views/plus/plus.component';
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +35,9 @@ import { PlusComponent } from './views/plus/plus.component';
     BrowserAnimationsModule,
     AppRoutingModule,
     ToastModule,
-    SidebarModule
+    SidebarModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
