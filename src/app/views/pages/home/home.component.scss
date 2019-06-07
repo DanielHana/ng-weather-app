@@ -16,7 +16,7 @@ $green: rgb(128, 228, 128);
     background-size: 50% 2px,2px 50%;
     background-repeat:no-repeat;
     transition: 0.2s all;
-    &:active{
+    &:hover{
         transform: rotate(90deg);
     }
 }
