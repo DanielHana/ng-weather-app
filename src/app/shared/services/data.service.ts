@@ -1,6 +1,5 @@
 import { Injectable, OnDestroy } from '@angular/core';
 import { ApiService } from './api.service';
-import { TempInfo } from 'src/app/models/temp-info';
 import { Subscription } from 'rxjs';
 import { Container } from 'src/app/models/container';
 
