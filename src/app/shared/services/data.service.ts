@@ -1,15 +1,34 @@
-import { Injectable } from '@angular/core';
+import { Injectable, OnDestroy } from '@angular/core';
 import { ApiService } from './api.service';
+import { TempInfo } from 'src/app/models/temp-info';
+import { Subscription } from 'rxjs';
+import { Container } from 'src/app/models/container';
+
 
 @Injectable({
   providedIn: 'root'
 })
-export class DataService {
+export class DataService implements OnDestroy {
+
+  sub: Subscription;
+  cInfo: Container;
+  cityList: Container[] = [];
 
   constructor(private aService: ApiService) { }
 
   getData(city) {
-    const newCity = this.aService.makeCall(city);
-    console.log(newCity);
+    this.sub = this.aService.getURL(city).subscribe(
+      x => {
+        this.cityList.push(x);
+        console.log(this.cityList);
+      }
+    );
   }
+
+  ngOnDestroy() {
+    if (this.sub) {
+      this.sub.unsubscribe();
+    }
+  }
+
 }
