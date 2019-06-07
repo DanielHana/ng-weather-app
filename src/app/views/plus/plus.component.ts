@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class PlusComponent implements OnInit {
 
-  @Input() klass: string;s
+  @Input() klass: string;
   constructor() { }
 
   ngOnInit() {
