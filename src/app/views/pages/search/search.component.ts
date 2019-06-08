@@ -16,5 +16,6 @@ export class SearchComponent implements OnInit {
 
   newCity() {
     this.dService.getData(this.city);
+    this.city = '';
   }
 }
