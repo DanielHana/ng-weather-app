@@ -18,4 +18,10 @@ export class SearchComponent implements OnInit {
     this.dService.getData(this.city);
     this.city = '';
   }
+
+  onKey(e: any) {
+    if (e.keyCode === 13){
+      this.newCity();
+    }
+  }
 }

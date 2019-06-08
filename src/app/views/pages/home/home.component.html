@@ -10,19 +10,19 @@
 
 <div class="row text-center">
   <div class="col-4">
-    <app-plus klass='minus mr-auto'></app-plus>
+    <app-plus (click) = removeCity(); klass='minus mr-auto'></app-plus>
   </div>
   <div class="col-4">
-    <h2>Modesto</h2>
+    <h2>{{currentCity.name}}</h2>
   </div>
   <div class="col-4">
     <app-plus (click)="display = true" klass='plus ml-auto'></app-plus>
   </div>
 </div>
 <div class="d-flex flex-row justify-content-between ">
-  <app-arrow class="my-auto" direction=prev></app-arrow>
-  <app-city date='1' icon='moon' degrees='90'></app-city>
-  <app-arrow class="my-auto" direction=next></app-arrow>
+  <app-arrow (click) = scroll(-1); class="my-auto" direction=prev></app-arrow>
+  <app-city date="{{currentCity.main.temp_max}}° High" icon={{symbol}} degrees="{{currentCity.main.temp_min}}° Low"></app-city>
+  <app-arrow (click) = scroll(1); class="my-auto" direction=next></app-arrow>
 </div>
 
 

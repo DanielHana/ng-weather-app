@@ -9,7 +9,7 @@ export class ToastService {
   public displayMessage$ = new BehaviorSubject<any>(this.displayMessage);
   public severity: string;
   public title: string;
-
+  public life = 2000;
   constructor() { }
 
   public showSuccess(msg: string, title?: string) {
@@ -21,12 +21,6 @@ export class ToastService {
   public showError(msg: string, title?: string) {
     this.severity = 'error';
     this.title = title || 'Error';
-    this.displayMessage$.next(msg);
-  }
-
-  public showWarn(msg: string, title?: string) {
-    this.severity = 'warn';
-    this.title = title || 'Addition Blocked';
     this.displayMessage$.next(msg);
   }
 }

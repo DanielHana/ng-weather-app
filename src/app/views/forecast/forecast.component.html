@@ -1,3 +1,3 @@
 <div class="d-flex fixed-bottom flex-row justify-content-around py-1">
-  <app-city *ngFor = 'let day of week' date='1' icon = {{day}} degrees = '90'></app-city>
+  <app-city *ngFor = 'let i of display' date="{{i.month}}/{{i.day}}" icon = {{i.icon}} degrees =" {{i.main.temp}}°"></app-city>
 </div>

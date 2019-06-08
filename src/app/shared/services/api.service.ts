@@ -8,17 +8,21 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
+  // For single day
+  apiD = 'https://api.openweathermap.org/data/2.5/weather?q=';
 
-  apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=';
+  // For forecast
+  apiF = 'https://api.openweathermap.org/data/2.5/forecast?q=';
+
   apiKey = '&units=imperial&appid=7368cd9c634c86465f0c6542a47a6054';
 
   constructor(private http: HttpClient, private tService: ToastService) { }
 
-  getForecast() {
-
+  getForecast(url: string): Observable<any> {
+    return this.http.get<any>(this.apiF + url + this.apiKey);
   }
 
   getURL(url: string): Observable<any> {
-    return this.http.get<any>(this.apiURL + url + this.apiKey);
+    return this.http.get<any>(this.apiD + url + this.apiKey);
   }
 }
