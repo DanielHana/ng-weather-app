@@ -27,7 +27,7 @@ export class ForecastComponent implements OnInit, OnDestroy {
 
         if (gh > 10 && gh <= 13) {
           i.day = d.getDate();
-          i.month = d.getMonth()
+          i.month = d.getMonth() + 1;
           if (i.main.temp > 49) {
             i.icon = 'sun';
           } else {
