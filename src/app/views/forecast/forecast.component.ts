@@ -25,6 +25,9 @@ export class ForecastComponent implements OnInit, OnDestroy {
         const d = new Date(i.dt * 1000);
         const gh = d.getHours();
 
+        // This API is weird, I basically
+        // am pulling from certain hours of the next 5 days
+        // in the if statement below. I had to pull at certain intervals.
         if (gh > 10 && gh <= 13) {
           i.day = d.getDate();
           i.month = d.getMonth() + 1;

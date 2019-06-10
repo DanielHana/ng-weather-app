@@ -67,7 +67,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\r\n<app-toast></app-toast>\r\n<div class=\"container\">\r\n  <router-outlet></router-outlet>\r\n</div>"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<app-toast></app-toast>\n<div class=\"container\">\n  <router-outlet></router-outlet>\n</div>"
 
 /***/ }),
 
@@ -205,7 +205,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div [ngClass]='direction'></div>\r\n\r\n"
+module.exports = "<div [ngClass]='direction'></div>\n\n"
 
 /***/ }),
 
@@ -216,7 +216,7 @@ module.exports = "<div [ngClass]='direction'></div>\r\n\r\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "div {\n  border-color: transparent #646464;\n  border-style: solid;\n  height: 0px;\n  width: 0px;\n  transition: border-color 0.3s ease-out; }\n  div.next {\n    border-width: 30px 0px 30px 30px; }\n  div.prev {\n    border-width: 30px 30px 30px 0px; }\n  div:hover {\n    border-color: transparent #4b4b4b; }\n  div:active {\n    border-color: transparent #333; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvYXJyb3cvRDpcXEFuZ3VsYXJcXG5nLXdlYXRoZXItYXBwL3NyY1xcYXBwXFxzaGFyZWRcXGNvbXBvbmVudHNcXGFycm93XFxhcnJvdy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLGlDQUE0QztFQUM1QyxtQkFBbUI7RUFDbkIsV0FBVztFQUNSLFVBQVU7RUFDVixzQ0FBc0MsRUFBQTtFQUwxQztJQU9RLGdDQUFnQyxFQUFBO0VBUHhDO0lBVVEsZ0NBQWdDLEVBQUE7RUFWeEM7SUFhUSxpQ0FBeUMsRUFBQTtFQWJqRDtJQWdCUSw4QkFBOEIsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9jb21wb25lbnRzL2Fycm93L2Fycm93LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZGl2e1xyXG5cdGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQgcmdiKDEwMCwgMTAwLCAxMDApO1xyXG5cdGJvcmRlci1zdHlsZTogc29saWQ7XHJcblx0aGVpZ2h0OiAwcHg7XHJcbiAgICB3aWR0aDogMHB4O1xyXG4gICAgdHJhbnNpdGlvbjogYm9yZGVyLWNvbG9yIDAuM3MgZWFzZS1vdXQ7XHJcbiAgICAmLm5leHR7XHJcbiAgICAgICAgYm9yZGVyLXdpZHRoOiAzMHB4IDBweCAzMHB4IDMwcHg7XHJcbiAgICB9XHJcbiAgICAmLnByZXZ7XHJcbiAgICAgICAgYm9yZGVyLXdpZHRoOiAzMHB4IDMwcHggMzBweCAwcHg7XHJcbiAgICB9XHJcbiAgICAmOmhvdmVye1xyXG4gICAgICAgIGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQgcmdiKDc1LCA3NSwgNzUpXHJcbiAgICB9XHJcbiAgICAmOmFjdGl2ZXtcclxuICAgICAgICBib3JkZXItY29sb3I6IHRyYW5zcGFyZW50ICMzMzM7XHJcbiAgICB9XHJcbn1cclxuXHJcbiJdfQ== */"
+module.exports = "div {\n  border-color: transparent #646464;\n  border-style: solid;\n  height: 0px;\n  width: 0px;\n  transition: border-color 0.3s ease-out; }\n  div.next {\n    border-width: 30px 0px 30px 30px; }\n  div.prev {\n    border-width: 30px 30px 30px 0px; }\n  div:hover {\n    border-color: transparent #4b4b4b; }\n  div:active {\n    border-color: transparent #333; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2RlL0Rlc2t0b3AvYW5ndWxhci9uZy13ZWF0aGVyLWFwcC9zcmMvYXBwL3NoYXJlZC9jb21wb25lbnRzL2Fycm93L2Fycm93LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0MsaUNBQTRDO0VBQzVDLG1CQUFtQjtFQUNuQixXQUFXO0VBQ1IsVUFBVTtFQUNWLHNDQUFzQyxFQUFBO0VBTDFDO0lBT1EsZ0NBQWdDLEVBQUE7RUFQeEM7SUFVUSxnQ0FBZ0MsRUFBQTtFQVZ4QztJQWFRLGlDQUF5QyxFQUFBO0VBYmpEO0lBZ0JRLDhCQUE4QixFQUFBIiwiZmlsZSI6InNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvYXJyb3cvYXJyb3cuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXZ7XG5cdGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQgcmdiKDEwMCwgMTAwLCAxMDApO1xuXHRib3JkZXItc3R5bGU6IHNvbGlkO1xuXHRoZWlnaHQ6IDBweDtcbiAgICB3aWR0aDogMHB4O1xuICAgIHRyYW5zaXRpb246IGJvcmRlci1jb2xvciAwLjNzIGVhc2Utb3V0O1xuICAgICYubmV4dHtcbiAgICAgICAgYm9yZGVyLXdpZHRoOiAzMHB4IDBweCAzMHB4IDMwcHg7XG4gICAgfVxuICAgICYucHJldntcbiAgICAgICAgYm9yZGVyLXdpZHRoOiAzMHB4IDMwcHggMzBweCAwcHg7XG4gICAgfVxuICAgICY6aG92ZXJ7XG4gICAgICAgIGJvcmRlci1jb2xvcjogdHJhbnNwYXJlbnQgcmdiKDc1LCA3NSwgNzUpXG4gICAgfVxuICAgICY6YWN0aXZle1xuICAgICAgICBib3JkZXItY29sb3I6IHRyYW5zcGFyZW50ICMzMzM7XG4gICAgfVxufVxuXG4iXX0= */"
 
 /***/ }),
 
@@ -321,7 +321,7 @@ var BtnComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card text-center\">\r\n    <div class=\"my-1 myIcon\" [ngClass]=\"icon\"></div>\r\n    <div class=\"card-body\">\r\n      <h5 class=\"card-title\">{{date}}</h5>\r\n      <p class=\"card-text\">{{degrees}}</p>\r\n    </div>\r\n</div>"
+module.exports = "<div class=\"card text-center\">\n    <div class=\"my-1 myIcon\" [ngClass]=\"icon\"></div>\n    <div class=\"card-body\">\n      <h5 class=\"card-title\">{{date}}</h5>\n      <p class=\"card-text\">{{degrees}}</p>\n    </div>\n</div>"
 
 /***/ }),
 
@@ -332,7 +332,7 @@ module.exports = "<div class=\"card text-center\">\r\n    <div class=\"my-1 myIc
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".myIcon {\n  border-radius: 100%;\n  box-shadow: 1px 1px 13px black;\n  padding-top: 100%;\n  width: 7.5rem; }\n  .myIcon.sun {\n    background-color: #FFD800; }\n  .myIcon.moon {\n    background-color: #A9ABB9; }\n  .card {\n  width: auto;\n  border: none;\n  background-color: #ffffff00;\n  font-size: 1.25rem; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvY2l0eS9EOlxcQW5ndWxhclxcbmctd2VhdGhlci1hcHAvc3JjXFxhcHBcXHNoYXJlZFxcY29tcG9uZW50c1xcY2l0eVxcY2l0eS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG1CQUFtQjtFQUNuQiw4QkFBOEI7RUFDOUIsaUJBQWlCO0VBQ2pCLGFBQWEsRUFBQTtFQUpqQjtJQU1RLHlCQUF5QixFQUFBO0VBTmpDO0lBU1EseUJBQXlCLEVBQUE7RUFJakM7RUFDSSxXQUFXO0VBQ1gsWUFBWTtFQUNaLDJCQUEyQjtFQUMzQixrQkFBa0IsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9jb21wb25lbnRzL2NpdHkvY2l0eS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5teUljb257XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMDAlO1xyXG4gICAgYm94LXNoYWRvdzogMXB4IDFweCAxM3B4IGJsYWNrO1xyXG4gICAgcGFkZGluZy10b3A6IDEwMCU7XHJcbiAgICB3aWR0aDogNy41cmVtO1xyXG4gICAgJi5zdW57XHJcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0ZGRDgwMDtcclxuICAgIH1cclxuICAgICYubW9vbntcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjQTlBQkI5O1xyXG4gICAgfVxyXG59XHJcblxyXG4uY2FyZHtcclxuICAgIHdpZHRoOiBhdXRvO1xyXG4gICAgYm9yZGVyOiBub25lO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjAwO1xyXG4gICAgZm9udC1zaXplOiAxLjI1cmVtO1xyXG59Il19 */"
+module.exports = ".myIcon {\n  border-radius: 100%;\n  box-shadow: 1px 1px 13px black;\n  padding-top: 100%;\n  width: 7.5rem; }\n  .myIcon.sun {\n    background-color: #FFD800; }\n  .myIcon.moon {\n    background-color: #A9ABB9; }\n  .card {\n  width: auto;\n  border: none;\n  background-color: #ffffff00;\n  font-size: 1.25rem; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2RlL0Rlc2t0b3AvYW5ndWxhci9uZy13ZWF0aGVyLWFwcC9zcmMvYXBwL3NoYXJlZC9jb21wb25lbnRzL2NpdHkvY2l0eS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG1CQUFtQjtFQUNuQiw4QkFBOEI7RUFDOUIsaUJBQWlCO0VBQ2pCLGFBQWEsRUFBQTtFQUpqQjtJQU1RLHlCQUF5QixFQUFBO0VBTmpDO0lBU1EseUJBQXlCLEVBQUE7RUFJakM7RUFDSSxXQUFXO0VBQ1gsWUFBWTtFQUNaLDJCQUEyQjtFQUMzQixrQkFBa0IsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9jb21wb25lbnRzL2NpdHkvY2l0eS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5teUljb257XG4gICAgYm9yZGVyLXJhZGl1czogMTAwJTtcbiAgICBib3gtc2hhZG93OiAxcHggMXB4IDEzcHggYmxhY2s7XG4gICAgcGFkZGluZy10b3A6IDEwMCU7XG4gICAgd2lkdGg6IDcuNXJlbTtcbiAgICAmLnN1bntcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0ZGRDgwMDtcbiAgICB9XG4gICAgJi5tb29ue1xuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjQTlBQkI5O1xuICAgIH1cbn1cblxuLmNhcmR7XG4gICAgd2lkdGg6IGF1dG87XG4gICAgYm9yZGVyOiBub25lO1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmYwMDtcbiAgICBmb250LXNpemU6IDEuMjVyZW07XG59Il19 */"
 
 /***/ }),
 
@@ -444,16 +444,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _api_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./api.service */ "./src/app/shared/services/api.service.ts");
 /* harmony import */ var _toast_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./toast.service */ "./src/app/shared/services/toast.service.ts");
 /* harmony import */ var _display_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./display.service */ "./src/app/shared/services/display.service.ts");
+/* harmony import */ var _storage_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./storage.service */ "./src/app/shared/services/storage.service.ts");
+
 
 
 
 
 
 var DataService = /** @class */ (function () {
-    function DataService(aService, tService, disService) {
+    function DataService(aService, tService, disService, sService) {
         this.aService = aService;
         this.tService = tService;
         this.disService = disService;
+        this.sService = sService;
+        for (var _i = 0, _a = sService.savedItems; _i < _a.length; _i++) {
+            var i = _a[_i];
+            this.getData(i.daily.name);
+        }
     }
     DataService.prototype.getData = function (city) {
         var _this = this;
@@ -493,7 +500,10 @@ var DataService = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
             providedIn: 'root'
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_api_service__WEBPACK_IMPORTED_MODULE_2__["ApiService"], _toast_service__WEBPACK_IMPORTED_MODULE_3__["ToastService"], _display_service__WEBPACK_IMPORTED_MODULE_4__["DisplayService"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_api_service__WEBPACK_IMPORTED_MODULE_2__["ApiService"],
+            _toast_service__WEBPACK_IMPORTED_MODULE_3__["ToastService"],
+            _display_service__WEBPACK_IMPORTED_MODULE_4__["DisplayService"],
+            _storage_service__WEBPACK_IMPORTED_MODULE_5__["StorageService"]])
     ], DataService);
     return DataService;
 }());
@@ -515,11 +525,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var _toast_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./toast.service */ "./src/app/shared/services/toast.service.ts");
+/* harmony import */ var _storage_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./storage.service */ "./src/app/shared/services/storage.service.ts");
+
+
 
 
 
 var DisplayService = /** @class */ (function () {
-    function DisplayService() {
+    function DisplayService(tService, sService) {
+        this.tService = tService;
+        this.sService = sService;
         this.defaultCity = {
             daily: {
                 main: {
@@ -539,7 +555,12 @@ var DisplayService = /** @class */ (function () {
         this.count = 0;
     }
     DisplayService.prototype.addInfo = function (info) {
-        this.weathList.push(info);
+        // checks ID of info being added to array
+        // if array already contains ID the city is already in the list.
+        if (this.weathList.filter(function (e) { return e.daily.sys.id === info.daily.sys.id; }).length < 1) {
+            this.weathList.push(info);
+            this.sService.addToStorage(this.weathList);
+        }
         info.daily.main.temp_max = Math.round(info.daily.main.temp_max);
         info.daily.main.temp_min = Math.round(info.daily.main.temp_min);
         this.displayCities$.next(this.weathList[this.count]);
@@ -552,6 +573,7 @@ var DisplayService = /** @class */ (function () {
     };
     DisplayService.prototype.removeCity = function () {
         this.weathList.splice(this.count, 1);
+        this.sService.addToStorage(this.weathList);
         this.count = 0;
         if (this.weathList[0]) {
             this.displayCities$.next(this.weathList[this.count]);
@@ -564,9 +586,51 @@ var DisplayService = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
             providedIn: 'root'
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_toast_service__WEBPACK_IMPORTED_MODULE_3__["ToastService"], _storage_service__WEBPACK_IMPORTED_MODULE_4__["StorageService"]])
     ], DisplayService);
     return DisplayService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/shared/services/storage.service.ts":
+/*!****************************************************!*\
+  !*** ./src/app/shared/services/storage.service.ts ***!
+  \****************************************************/
+/*! exports provided: StorageService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StorageService", function() { return StorageService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var StorageService = /** @class */ (function () {
+    function StorageService() {
+        this.savedItems = JSON.parse(localStorage.getItem('cities')) || [];
+    }
+    StorageService.prototype.addToStorage = function (newItem) {
+        if (newItem.length > 0) {
+            localStorage.setItem('cities', JSON.stringify(newItem));
+        }
+        else {
+            localStorage.clear();
+        }
+    };
+    StorageService.prototype.getFromStorage = function () {
+        return JSON.parse(localStorage.getItem('cities'));
+    };
+    StorageService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+            providedIn: 'root'
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], StorageService);
+    return StorageService;
 }());
 
 
@@ -592,7 +656,7 @@ __webpack_require__.r(__webpack_exports__);
 var ToastService = /** @class */ (function () {
     function ToastService() {
         this.displayMessage$ = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"](this.displayMessage);
-        this.life = 2000;
+        this.life = 2500;
     }
     ToastService.prototype.showSuccess = function (msg, title) {
         this.severity = 'success';
@@ -624,7 +688,7 @@ var ToastService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"d-flex fixed-bottom flex-row justify-content-around py-1\">\r\n  <app-city *ngFor = 'let i of display' date=\"{{i.month}}/{{i.day}}\" icon = {{i.icon}} degrees =\" {{i.main.temp}}°\"></app-city>\r\n</div>"
+module.exports = "<div class=\"d-flex fixed-bottom flex-row justify-content-around py-1\">\n  <app-city *ngFor = 'let i of display' date=\"{{i.month}}/{{i.day}}\" icon = {{i.icon}} degrees =\" {{i.main.temp}}°\"></app-city>\n</div>"
 
 /***/ }),
 
@@ -635,7 +699,7 @@ module.exports = "<div class=\"d-flex fixed-bottom flex-row justify-content-arou
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "div {\n  background-color: #bfbfbf; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdmlld3MvZm9yZWNhc3QvRDpcXEFuZ3VsYXJcXG5nLXdlYXRoZXItYXBwL3NyY1xcYXBwXFx2aWV3c1xcZm9yZWNhc3RcXGZvcmVjYXN0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUJBQW9DLEVBQUEiLCJmaWxlIjoic3JjL2FwcC92aWV3cy9mb3JlY2FzdC9mb3JlY2FzdC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdntcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigxOTEsIDE5MSwgMTkxKTtcclxufSJdfQ== */"
+module.exports = "div {\n  background-color: #bfbfbf; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2RlL0Rlc2t0b3AvYW5ndWxhci9uZy13ZWF0aGVyLWFwcC9zcmMvYXBwL3ZpZXdzL2ZvcmVjYXN0L2ZvcmVjYXN0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUJBQW9DLEVBQUEiLCJmaWxlIjoic3JjL2FwcC92aWV3cy9mb3JlY2FzdC9mb3JlY2FzdC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdntcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMTkxLCAxOTEsIDE5MSk7XG59Il19 */"
 
 /***/ }),
 
@@ -672,7 +736,7 @@ var ForecastComponent = /** @class */ (function () {
                 var gh = d.getHours();
                 if (gh > 10 && gh <= 13) {
                     i.day = d.getDate();
-                    i.month = d.getMonth();
+                    i.month = d.getMonth() + 1;
                     if (i.main.temp > 49) {
                         i.icon = 'sun';
                     }
@@ -711,7 +775,7 @@ var ForecastComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p-sidebar class=\"sidebar text-center\" [(visible)]=\"display\" position=\"right\" baseZIndex=100 autoZIndex=\"false\">\r\n  <app-search city = \"'city'\"></app-search>\r\n</p-sidebar>\r\n\r\n<div class=\"row\">\r\n  <div class=\"col-12 text-center mb-1\">\r\n    <h1 class=\"header\">Dan's Daily Forecast</h1>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"row text-center\">\r\n  <div class=\"col-4\">\r\n    <app-plus (click) = removeCity(); klass='minus mr-auto'></app-plus>\r\n  </div>\r\n  <div class=\"col-4\">\r\n    <h2>{{currentCity.name}}</h2>\r\n  </div>\r\n  <div class=\"col-4\">\r\n    <app-plus (click)=\"display = true\" klass='plus ml-auto'></app-plus>\r\n  </div>\r\n</div>\r\n<div class=\"d-flex flex-row justify-content-between \">\r\n  <app-arrow (click) = scroll(-1); class=\"my-auto\" direction=prev></app-arrow>\r\n  <app-city date=\"{{currentCity.main.temp_max}}° High\" icon={{symbol}} degrees=\"{{currentCity.main.temp_min}}° Low\"></app-city>\r\n  <app-arrow (click) = scroll(1); class=\"my-auto\" direction=next></app-arrow>\r\n</div>\r\n\r\n\r\n<app-forecast></app-forecast>"
+module.exports = "<p-sidebar class=\"sidebar text-center\" [(visible)]=\"display\"  position=\"right\" baseZIndex=100 autoZIndex=\"false\">\n  <app-search city = \"'city'\"></app-search>\n</p-sidebar>\n\n<div class=\"row\">\n  <div class=\"col-12 text-center mb-1\">\n    <h1 class=\"header\">Dan's Daily Forecast</h1>\n  </div>\n</div>\n\n<div class=\"row text-center\">\n  <div class=\"col-4\">\n    <app-plus (click) = removeCity(); klass='minus mr-auto'></app-plus>\n  </div>\n  <div class=\"col-4\">\n    <h2>{{currentCity.name}}</h2>\n  </div>\n  <div class=\"col-4\">\n    <app-plus (click)=\"display = true\" klass='plus ml-auto'></app-plus>\n  </div>\n</div>\n<div class=\"d-flex flex-row justify-content-between \">\n  <app-arrow (click) = scroll(-1); class=\"my-auto\" direction=prev></app-arrow>\n  <app-city date=\"{{currentCity.main.temp_max}}° High\" icon={{symbol}} degrees=\"{{currentCity.main.temp_min}}° Low\"></app-city>\n  <app-arrow (click) = scroll(1); class=\"my-auto\" direction=next></app-arrow>\n</div>\n\n\n<app-forecast></app-forecast>"
 
 /***/ }),
 
@@ -722,7 +786,7 @@ module.exports = "<p-sidebar class=\"sidebar text-center\" [(visible)]=\"display
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".header {\n  color: #333;\n  border-bottom: 1px solid #333; }\n\n:host ::ng-deep .ui-sidebar {\n  background-color: #4b4b4b;\n  border: none; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdmlld3MvcGFnZXMvaG9tZS9EOlxcQW5ndWxhclxcbmctd2VhdGhlci1hcHAvc3JjXFxhcHBcXHZpZXdzXFxwYWdlc1xcaG9tZVxcaG9tZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJQTtFQUNJLFdBTE87RUFNUCw2QkFOTyxFQUFBOztBQVNYO0VBRVEseUJBQWlDO0VBQ2pDLFlBQVcsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3ZpZXdzL3BhZ2VzL2hvbWUvaG9tZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiRncmV5OiAjMzMzO1xyXG4kdW5kZXI6IDFweCBzb2xpZCAkZ3JleTtcclxuXHJcblxyXG4uaGVhZGVye1xyXG4gICAgY29sb3I6ICRncmV5O1xyXG4gICAgYm9yZGVyLWJvdHRvbTogJHVuZGVyO1xyXG59XHJcblxyXG46aG9zdCB7XHJcbiAgICA6Om5nLWRlZXAgLnVpLXNpZGViYXIge1xyXG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYig3NSwgNzUsIDc1KTtcclxuICAgICAgICBib3JkZXI6bm9uZTtcclxuICAgIH1cclxufVxyXG5cclxuXHJcbiJdfQ== */"
+module.exports = ".header {\n  color: #333;\n  border-bottom: 1px solid #333; }\n\n:host ::ng-deep .ui-sidebar {\n  background-color: #4b4b4b;\n  border: none; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2RlL0Rlc2t0b3AvYW5ndWxhci9uZy13ZWF0aGVyLWFwcC9zcmMvYXBwL3ZpZXdzL3BhZ2VzL2hvbWUvaG9tZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJQTtFQUNJLFdBTE87RUFNUCw2QkFOTyxFQUFBOztBQVNYO0VBRVEseUJBQWlDO0VBQ2pDLFlBQVcsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3ZpZXdzL3BhZ2VzL2hvbWUvaG9tZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiRncmV5OiAjMzMzO1xuJHVuZGVyOiAxcHggc29saWQgJGdyZXk7XG5cblxuLmhlYWRlcntcbiAgICBjb2xvcjogJGdyZXk7XG4gICAgYm9yZGVyLWJvdHRvbTogJHVuZGVyO1xufVxuXG46aG9zdCB7XG4gICAgOjpuZy1kZWVwIC51aS1zaWRlYmFyIHtcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDc1LCA3NSwgNzUpO1xuICAgICAgICBib3JkZXI6bm9uZTtcbiAgICB9XG59XG5cblxuIl19 */"
 
 /***/ }),
 
@@ -808,7 +872,7 @@ var HomeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h2>Add City</h2>\r\n<form>\r\n  <div class=\"form-group\">\r\n    <input (keyup)=\"onKey($event)\" [(ngModel)]=\"city\" [ngModelOptions]=\"{standalone: true}\" type=\"text\" class=\"form-control\" placeholder=\"Enter City/Zip\" required>\r\n  </div>\r\n</form>\r\n<app-btn (click) = \"newCity();\"></app-btn>"
+module.exports = "<h2>Add City</h2>\n<form>\n  <div class=\"form-group\">\n    <input (keyup)=\"onKey($event)\" [(ngModel)]=\"city\" [ngModelOptions]=\"{standalone: true}\" type=\"text\" class=\"form-control\" placeholder=\"Enter City/Zip\" required>\n  </div>\n</form>\n<app-btn (click) = \"newCity();\"></app-btn>"
 
 /***/ }),
 
@@ -819,7 +883,7 @@ module.exports = "<h2>Add City</h2>\r\n<form>\r\n  <div class=\"form-group\">\r\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h2 {\n  color: #eeeeee;\n  border-bottom: 1px solid #eeeeee; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdmlld3MvcGFnZXMvc2VhcmNoL0Q6XFxBbmd1bGFyXFxuZy13ZWF0aGVyLWFwcC9zcmNcXGFwcFxcdmlld3NcXHBhZ2VzXFxzZWFyY2hcXHNlYXJjaC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGNBQWM7RUFDZCxnQ0FBZ0MsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3ZpZXdzL3BhZ2VzL3NlYXJjaC9zZWFyY2guY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMntcclxuICAgIGNvbG9yOiAjZWVlZWVlO1xyXG4gICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNlZWVlZWU7XHJcbn1cclxuIl19 */"
+module.exports = "h2 {\n  color: #eeeeee;\n  border-bottom: 1px solid #eeeeee; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2RlL0Rlc2t0b3AvYW5ndWxhci9uZy13ZWF0aGVyLWFwcC9zcmMvYXBwL3ZpZXdzL3BhZ2VzL3NlYXJjaC9zZWFyY2guY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxjQUFjO0VBQ2QsZ0NBQWdDLEVBQUEiLCJmaWxlIjoic3JjL2FwcC92aWV3cy9wYWdlcy9zZWFyY2gvc2VhcmNoLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDJ7XG4gICAgY29sb3I6ICNlZWVlZWU7XG4gICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNlZWVlZWU7XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -887,7 +951,7 @@ module.exports = "<div [ngClass]='klass'></div>"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "div {\n  width: 50px;\n  height: 50px;\n  transition: 0.4s all; }\n  div.plus {\n    background: linear-gradient(#80e480, #80e480), linear-gradient(#80e480, #80e480), #333;\n    background-position: center;\n    background-size: 50% 2px,2px 50%;\n    background-repeat: no-repeat; }\n  div.minus {\n    background: linear-gradient(#e48080, #e48080), #333;\n    background-position: center;\n    background-size: 50% 2px,2px 50%;\n    background-repeat: no-repeat; }\n  div:hover {\n    -webkit-transform: rotate(180deg);\n            transform: rotate(180deg); }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdmlld3MvcGx1cy9EOlxcQW5ndWxhclxcbmctd2VhdGhlci1hcHAvc3JjXFxhcHBcXHZpZXdzXFxwbHVzXFxwbHVzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0ksV0FBVTtFQUNWLFlBQVc7RUFDWCxvQkFBb0IsRUFBQTtFQUh4QjtJQUtNLHNGQUdNO0lBQ04sMkJBQTBCO0lBQzFCLGdDQUFnQztJQUNoQyw0QkFBMkIsRUFBQTtFQVhqQztJQWNNLG1EQUVNO0lBQ04sMkJBQTBCO0lBQzFCLGdDQUFnQztJQUNoQyw0QkFBMkIsRUFBQTtFQW5CakM7SUFzQlEsaUNBQXlCO1lBQXpCLHlCQUF5QixFQUFBIiwiZmlsZSI6InNyYy9hcHAvdmlld3MvcGx1cy9wbHVzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJGdyZWVuOiByZ2IoMTI4LCAyMjgsIDEyOCk7XHJcbiRyZWQ6IHJnYigyMjgsIDEyOCwgMTI4KTtcclxuZGl2IHtcclxuICAgIHdpZHRoOjUwcHg7XHJcbiAgICBoZWlnaHQ6NTBweDtcclxuICAgIHRyYW5zaXRpb246IDAuNHMgYWxsO1xyXG4gICAgJi5wbHVze1xyXG4gICAgICBiYWNrZ3JvdW5kOlxyXG4gICAgICAgIGxpbmVhci1ncmFkaWVudCgkZ3JlZW4sJGdyZWVuKSxcclxuICAgICAgICBsaW5lYXItZ3JhZGllbnQoJGdyZWVuLCRncmVlbiksXHJcbiAgICAgICAgIzMzMztcclxuICAgICAgYmFja2dyb3VuZC1wb3NpdGlvbjpjZW50ZXI7XHJcbiAgICAgIGJhY2tncm91bmQtc2l6ZTogNTAlIDJweCwycHggNTAlO1xyXG4gICAgICBiYWNrZ3JvdW5kLXJlcGVhdDpuby1yZXBlYXQ7XHJcbiAgICB9XHJcbiAgICAmLm1pbnVze1xyXG4gICAgICBiYWNrZ3JvdW5kOlxyXG4gICAgICAgIGxpbmVhci1ncmFkaWVudCgkcmVkLCRyZWQpLFxyXG4gICAgICAgICMzMzM7XHJcbiAgICAgIGJhY2tncm91bmQtcG9zaXRpb246Y2VudGVyO1xyXG4gICAgICBiYWNrZ3JvdW5kLXNpemU6IDUwJSAycHgsMnB4IDUwJTtcclxuICAgICAgYmFja2dyb3VuZC1yZXBlYXQ6bm8tcmVwZWF0O1xyXG4gICAgfVxyXG4gICAgJjpob3ZlcntcclxuICAgICAgICB0cmFuc2Zvcm06IHJvdGF0ZSgxODBkZWcpO1xyXG4gICAgfVxyXG59XHJcbiJdfQ== */"
+module.exports = "div {\n  width: 50px;\n  height: 50px;\n  transition: 0.4s all; }\n  div.plus {\n    background: linear-gradient(#80e480, #80e480), linear-gradient(#80e480, #80e480), #333;\n    background-position: center;\n    background-size: 50% 2px,2px 50%;\n    background-repeat: no-repeat; }\n  div.minus {\n    background: linear-gradient(#e48080, #e48080), #333;\n    background-position: center;\n    background-size: 50% 2px,2px 50%;\n    background-repeat: no-repeat; }\n  div:hover {\n    -webkit-transform: rotate(180deg);\n            transform: rotate(180deg); }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2RlL0Rlc2t0b3AvYW5ndWxhci9uZy13ZWF0aGVyLWFwcC9zcmMvYXBwL3ZpZXdzL3BsdXMvcGx1cy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLFdBQVU7RUFDVixZQUFXO0VBQ1gsb0JBQW9CLEVBQUE7RUFIeEI7SUFLTSxzRkFHTTtJQUNOLDJCQUEwQjtJQUMxQixnQ0FBZ0M7SUFDaEMsNEJBQTJCLEVBQUE7RUFYakM7SUFjTSxtREFFTTtJQUNOLDJCQUEwQjtJQUMxQixnQ0FBZ0M7SUFDaEMsNEJBQTJCLEVBQUE7RUFuQmpDO0lBc0JRLGlDQUF5QjtZQUF6Qix5QkFBeUIsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3ZpZXdzL3BsdXMvcGx1cy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiRncmVlbjogcmdiKDEyOCwgMjI4LCAxMjgpO1xuJHJlZDogcmdiKDIyOCwgMTI4LCAxMjgpO1xuZGl2IHtcbiAgICB3aWR0aDo1MHB4O1xuICAgIGhlaWdodDo1MHB4O1xuICAgIHRyYW5zaXRpb246IDAuNHMgYWxsO1xuICAgICYucGx1c3tcbiAgICAgIGJhY2tncm91bmQ6XG4gICAgICAgIGxpbmVhci1ncmFkaWVudCgkZ3JlZW4sJGdyZWVuKSxcbiAgICAgICAgbGluZWFyLWdyYWRpZW50KCRncmVlbiwkZ3JlZW4pLFxuICAgICAgICAjMzMzO1xuICAgICAgYmFja2dyb3VuZC1wb3NpdGlvbjpjZW50ZXI7XG4gICAgICBiYWNrZ3JvdW5kLXNpemU6IDUwJSAycHgsMnB4IDUwJTtcbiAgICAgIGJhY2tncm91bmQtcmVwZWF0Om5vLXJlcGVhdDtcbiAgICB9XG4gICAgJi5taW51c3tcbiAgICAgIGJhY2tncm91bmQ6XG4gICAgICAgIGxpbmVhci1ncmFkaWVudCgkcmVkLCRyZWQpLFxuICAgICAgICAjMzMzO1xuICAgICAgYmFja2dyb3VuZC1wb3NpdGlvbjpjZW50ZXI7XG4gICAgICBiYWNrZ3JvdW5kLXNpemU6IDUwJSAycHgsMnB4IDUwJTtcbiAgICAgIGJhY2tncm91bmQtcmVwZWF0Om5vLXJlcGVhdDtcbiAgICB9XG4gICAgJjpob3ZlcntcbiAgICAgICAgdHJhbnNmb3JtOiByb3RhdGUoMTgwZGVnKTtcbiAgICB9XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -1073,7 +1137,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Angular\ng-weather-app\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/code/Desktop/angular/ng-weather-app/src/main.ts */"./src/main.ts");
 
 
 /***/ })

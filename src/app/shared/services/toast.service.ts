@@ -9,7 +9,7 @@ export class ToastService {
   public displayMessage$ = new BehaviorSubject<any>(this.displayMessage);
   public severity: string;
   public title: string;
-  public life = 2000;
+  public life = 2500;
   constructor() { }
 
   public showSuccess(msg: string, title?: string) {
@@ -23,4 +23,5 @@ export class ToastService {
     this.title = title || 'Error';
     this.displayMessage$.next(msg);
   }
+
 }
